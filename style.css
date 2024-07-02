@@ -1,0 +1,99 @@
+body{
+  background-color: aliceblue;
+}
+.con1 {
+  background-color: rgb(236, 39, 39);
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  height: 60px;
+}
+
+.img {
+  height: 400px;
+  width: 500px;
+  margin-left: 420px;
+}
+
+#description {
+  font-size: x-large;
+  border: solid black 1px;
+  text-align: center;
+  background-color:rgb(236, 39, 39);
+  color: white;
+
+}
+
+.con2 {
+  background-color: rgb(250, 250, 255);
+  margin-left: 40px;
+  padding: 40px 0px 0px 50px;
+  width: 90%;
+  border: solid black 1px;
+
+}
+
+.con3 {
+  margin-top: 40px;
+
+
+}
+
+#survey-table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 40px;
+}
+
+#survey-table th,
+#survey-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+
+}
+
+#survey-table th {
+  background-color: #f0f0f0;
+}
+
+.btn-primary {
+  margin-top: 30px;
+  height: 40px;
+  width: 90px;
+  border: solid black 1px;
+}
+
+#group {
+  width: 40%;
+  text-align: center;
+
+}
+
+.cof {
+  font-size: large;
+}
+
+#email {
+  margin-left: 50px;
+}
+
+#state {
+  margin-left: 56px;
+}
+
+#country,
+#address,
+#pincode {
+  margin-left: 32px;
+}
+
+#first-name,
+#last-name {
+  margin-left: 21px;
+}
+
+#male,#female{
+  margin-left: 40px;
+}

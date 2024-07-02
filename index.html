@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <div class="con1">
+  <h1 id="title">Survey Form</h1>
+  </div>
+    <img src="https://i.etsystatic.com/8345667/r/il/fe6cfa/3703559010/il_fullxfull.3703559010_mvvm.jpg" alt="" class="img">
+
+  
+
+
+  <p id="description">Please fill out this form with your information.</p>
+<div class="con2">
+  <form id="survey-form" class="survey-form">
+    <div class="form-group">
+      <label for="first-name" id="name-label">First Name:</label>
+      <input type="text" id="first-name" class="form-control" placeholder="Enter your first name" required>
+    </div>
+    <br>
+    <br>
+<div class="form-group">
+      <label for="last-name" id="last-name-label">Last Name:</label>
+      <input type="text" id="last-name" class="form-control" placeholder="Enter your last name" required>
+    </div>
+    <br>
+    <br>
+    
+        <div class="form-group">
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+
+    </div>
+   <br>
+    <br>
+    <div class="form-group">
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+    <br>
+    <br>
+<div class="form-group">
+  <label for="state" id="state-label">State:</label>
+  <input type="text" id="state" class="form-control" required>
+  <br>
+  <br>
+  <div class="form-group">
+  <label for="country" id="country-label">Country:</label>
+  <input type="text" id="country" class="form-control" required>
+  <br>
+  <br>
+  <div class="form-group">
+  <label for="address" id="address-label">Address:</label>
+  <input type="text" id="address" class="form-control" required>
+<br>
+<br>
+<div class="form-group">
+  <label for="pincode" id="pincode-label">Pincode:</label>
+  <input type="number" id="pincode" class="form-control" required>
+</div>
+</div>
+    </div>
+<br>
+    <br>
+    
+</div>
+    <div class="con3">
+<fieldset id="group">
+  <legend class="cof">choice of food</legend>
+  <input type="checkbox" id="food1" name="food[]" value="Mexican" class="form-choice1" >
+  <label for="food1">Mexican</label>
+  <input type="checkbox" id="food2" name="food[]" value="American" class="form-choice2" >
+  <label for="food2">American</label> 
+  <input type="checkbox" id="food3" name="food[]" value="Italian" class="form-choice3" >
+  <label for="food3">Italian</label>
+  <input type="checkbox" id="food4" name="food[]" value="Indian" class="form-choice4" >
+  <label for="food4">Indian</label> 
+  <input type="checkbox" id="food5" name="food[]" value="chinese" class="form-choice5" >
+  <label for="food5">chinese</label>
+  <p id="note" style="color: red;"></p>
+</fieldset>
+    </div>
+<div>
+    <br>
+    <br>
+    <form id="survey-form">
+ 
+  <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br>
+  <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+   <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <table id="survey-table">
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Gender</th>
+      <th>Email</th>
+      <th>State</th>
+      <th>Country</th>
+      <th>Address</th>
+      <th>Pincode</th>
+      <th>Food Choice</th>
+    </tr>
+  </thead>
+  <tbody id="table-body">
+    
+  </tbody>
+</table>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
+
